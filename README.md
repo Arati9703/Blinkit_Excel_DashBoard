@@ -2,19 +2,19 @@
 
 ## 📌 Overview
 
-This project presents an interactive Sales Analysis Dashboard built in Microsoft Excel using the Blinkit sales dataset. The dashboard converts raw sales data into meaningful business insights through Pivot Tables, Pivot Charts, KPI Cards, Slicers, and interactive navigation.
+This project showcases an interactive **Blinkit Sales Analysis Dashboard** built using **Microsoft Excel**. The dashboard transforms raw sales data into meaningful business insights through Pivot Tables, Pivot Charts, KPI Cards, Slicers, and interactive worksheet navigation.
 
-The dashboard enables users to analyze sales performance across various dimensions, including outlet size, outlet location, outlet type, item type, fat content, and outlet establishment year.
+It enables users to analyze sales performance across multiple dimensions, including outlet size, outlet location, outlet type, item type, fat content, and outlet establishment year.
 
 ---
 
 ## 🎯 Project Objectives
 
 - Analyze Blinkit's overall sales performance.
-- Monitor important business KPIs.
+- Monitor key business KPIs.
 - Compare sales across different outlet characteristics.
 - Identify top-performing product categories.
-- Build an interactive dashboard for business decision-making.
+- Develop an interactive dashboard for business reporting and decision-making.
 
 ---
 
@@ -33,14 +33,14 @@ The dashboard enables users to analyze sales performance across various dimensio
 
 ## 📂 Workbook Structure
 
-### Dashboard Sheet
-Contains the interactive dashboard with KPI cards, charts, slicers, and navigation buttons.
+### 📊 Dashboard Sheet
+Contains the interactive dashboard featuring KPI cards, charts, slicers, and navigation buttons.
 
-### Pivot Tables Sheet
-Contains Pivot Tables used as the data source for all dashboard visualizations.
+### 📑 Pivot Tables Sheet
+Contains Pivot Tables used as the backend data source for all dashboard visualizations.
 
-### Dataset Sheet
-Contains the original Blinkit sales dataset used for analysis.
+### 🗂 Dataset Sheet
+Contains the Blinkit sales dataset used for analysis.
 
 ---
 
@@ -55,7 +55,7 @@ Contains the original Blinkit sales dataset used for analysis.
 
 ## 📈 Dashboard Analysis
 
-The dashboard analyzes sales based on:
+The dashboard provides sales analysis based on:
 
 - Outlet Establishment Year
 - Fat Content
@@ -67,42 +67,38 @@ The dashboard analyzes sales based on:
 
 ---
 
-## 🎛 Interactive Filters
+## 🎛️ Interactive Features
 
-Users can dynamically filter the dashboard using:
+### Dynamic Slicers
+
+Users can filter the dashboard interactively using:
 
 - Outlet Size
 - Outlet Location
 - Item Type
 
-All charts and KPI cards update automatically based on the selected filters.
+All KPI cards and charts update automatically based on the selected filters.
+
+### Navigation Buttons
+
+The dashboard includes navigation buttons for an improved user experience:
+
+- 🏠 **Home Button** – Navigates back to the Dashboard worksheet.
+- 🗄️ **Dataset Button** – Opens the Dataset worksheet for quick access to the raw data.
+
+These buttons make navigation between worksheets simple and efficient.
 
 ---
 
-## 🧭 Navigation Buttons
+## 📁 Repository Structure
 
-The dashboard includes two navigation buttons located at the bottom-left corner:
-
-🏠 Home Button
-- Navigates to the Dashboard worksheet.
-
-🗄 Dataset Button
-- Navigates to the Dataset worksheet containing the raw Blinkit sales data.
-
-The workbook also includes a dedicated Pivot Tables worksheet that serves as the backend for all dashboard visualizations.
-
----
-
-## 📁 Project Structure
-
+```
 Blinkit_Excel_Dashboard/
-
-├── Blinkit Dashboard.xlsx
-
-├── Dashboard Screenshot.png
-
-├── README.md
-
+│
+├── 📊 Blinkit Raw Dataset.xlsx
+├── 🖼 Dashboard Screenshot.png
+└── 📄 README.md
+```
 
 ---
 
@@ -110,8 +106,8 @@ Blinkit_Excel_Dashboard/
 
 - Compare sales across outlet sizes.
 - Analyze sales distribution by outlet location.
-- Identify best-selling item categories.
-- Compare Low Fat and Regular product sales.
+- Identify top-selling product categories.
+- Compare Low Fat and Regular product performance.
 - Monitor outlet establishment trends.
 - Evaluate outlet performance using multiple KPIs.
 
@@ -128,5 +124,18 @@ Blinkit_Excel_Dashboard/
 - Interactive Reporting
 - Business Intelligence
 - Data Visualization
+
 ---
-Data Analytics | Excel 
+
+## 📬 Complete Project
+
+This repository contains the **dashboard preview** and the **raw dataset** used for analysis.
+
+The complete Excel workbook, including the interactive dashboard, Pivot Tables, formulas, slicers, and navigation features, is not included in this repository.
+
+If you'd like to view or discuss the complete project, feel free to contact me:
+
+**📧 Email:** **aratib9703@gmail.com**
+
+---
+*Aspiring Data Analyst | Excel | SQL | Power BI | Python*
